@@ -23,7 +23,10 @@ Day Planner
 
 ### index.html
 
-1. I added a table to the ```.htlm``` file for my timeblocks
+1. Originally, I added a table to the ```.htlm``` file for my timeblocks, but then decided to swith to ```<div>```s to create the time blocks
+2. I added the provided css selectors to the ```.html``` file.
+3. I added id's to the butons and places where I wanted the user to be able to add text.
+4. Added id's to all the elements of the ```.html``` file that I wanted to interact with in the ```.js``` file.
 
 ### script.js
 
