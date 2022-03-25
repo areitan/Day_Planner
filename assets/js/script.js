@@ -8,19 +8,17 @@ var currentHour = moment().format("h");
 console.log(currentHour)
 
 var am9 = parseInt($('#am9'));
-var row9 = $('#row9');
+var task9 = $('#task9');
 
-
+// adds class past
 if (currentHour > $(am9).text()) {
-    // adds class present
-    row9.addClass('past');
-    // else if()
+    task9.addClass('past');
 }
-
-var am10 = parseInt($('#am10'));
-var row10 = $('#row10');
-
-if (currentHour > $(am10).text()) {
-    // adds class present
-    row10.addClass('past');
+// adds class future
+if (currentHour < $(am9).text()) {
+    task9.addClass('future');
+}
+// adds class present
+if (currentHour == $(am9).text()) {
+    task9.addClass('present');
 }
