@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +30,67 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Task</th>
+            <th scope="col">Save</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">9 AM</th>
+            <td><input type="text">></td>
+            <td><button id="btn-9" class="button"><i class="fas fa-save"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">10 AM</th>
+            <td>Task10</td>
+            <td>Save10</td>
+          </tr>
+          <tr>
+            <th scope="row">11 AM</th>
+            <td>Task11</td>
+            <td>Save11</td>
+          </tr>
+          <tr>
+            <th scope="row">12 PM</th>
+            <td>Task12</td>
+            <td>Save12</td>
+          </tr>
+          <tr>
+            <th scope="row">1 PM</th>
+            <td>Task1</td>
+            <td>Save1</td>
+          </tr>
+          <tr>
+            <th scope="row">2 PM</th>
+            <td>Task2</td>
+            <td>Save2</td>
+          </tr>
+          <tr>
+            <th scope="row">3 PM</th>
+            <td>Task3</td>
+            <td>Save3</td>
+          </tr>
+          <tr>
+            <th scope="row">4 PM</th>
+            <td>Task4</td>
+            <td>Save4</td>
+          </tr>
+          <tr>
+            <th scope="row">5 PM</th>
+            <td>Task5</td>
+            <td>Save5</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
   </body>
 </html>

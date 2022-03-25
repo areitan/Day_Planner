@@ -15,7 +15,7 @@ Example Day Planner
 
 Day Planner
 
-![Code Quiz Screenshot](/assets/images/code_quiz_screenshot.png)
+![Day Planner Screenshot](/assets/images/Day_Planner.png)
 
 
 ## Process
@@ -23,11 +23,11 @@ Day Planner
 
 ### index.html
 
-
+1. I added a table to the ```.htlm``` file for my timeblocks
 
 ### script.js
 
-
+1. I added a variable for the current date 
 
 ## How To Contribute
 
@@ -35,4 +35,4 @@ Day Planner
 
 ## Credits
 - [W3 Schools: HTML ```<input>``` type Attribute](https://www.w3schools.com/tags/att_input_type.asp)
-- Trilogy Education Services, LLC for the example gif and sample code throughout the week 4 activities.
+- Trilogy Education Services, LLC for the example gif and sample code throughout the week 5 activities.
