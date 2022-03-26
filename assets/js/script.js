@@ -243,9 +243,28 @@ function storeItem5() {
 // Event listener for storing item 5
 btn5.addEventListener("click", storeItem5);
 
-
-function init(){
-    task9.append(task9value);
+   
+// page load event loads what's in local storage for each time-block
+function init() {
+    var newTask9 = localStorage.getItem("key9");
+    task9.append(newTask9);
+    var newTask10 = localStorage.getItem("key10");
+    task10.append(newTask10);
+    var newTask11 = localStorage.getItem("key11");
+    task11.append(newTask11);
+    var newTask12 = localStorage.getItem("key12");
+    task12.append(newTask12);
+    var newTask1 = localStorage.getItem("key1");
+    task1.append(newTask1);
+    var newTask2 = localStorage.getItem("key2");
+    task2.append(newTask2);
+    var newTask3 = localStorage.getItem("key3");
+    task3.append(newTask3);
+    var newTask4 = localStorage.getItem("key4");
+    task4.append(newTask4);
+    var newTask5 = localStorage.getItem("key5");
+    task5.append(newTask5);
 }
 
-    
+//  Calls init function
+init();

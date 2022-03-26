@@ -35,7 +35,8 @@ Day Planner
 2. I added a variable for the current hour converted to military time so I could use that in if statements to comtrol the colors in the ```.html``` file.
 3. I added if statements for each hour to control the color.
 4. I added functions to save user input from the text inputs to local storage.
-5. I added event listeners to each time-block button to trigger saving the user input to local storage
+5. I added event listeners to each time-block button to trigger saving the user input to local storage.
+6. I added an ```init()``` function to append the values in local storage for all of the time blocks.
 
 
 ### style.css
@@ -53,4 +54,7 @@ Suggestions are always welcome. I'm sure this is not the most elegant way to wri
 - [Moment.js Documentation: Display](https://momentjs.com/docs/#/displaying/)
 - [Tutorial Republic: How to Get the Value in an Input Text Box using jQuery](https://www.tutorialrepublic.com/faq/how-to-get-the-value-in-an-input-text-box-using-jquery.php)
 - [W3 Schools: JavaScript HTML DOM EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+- [W3 Schools: HTML ```<textarea>``` Tag](https://www.w3schools.com/tags/tag_textarea.asp)
+- [W3 Schools: Storage getItem() Method](https://www.w3schools.com/jsref/met_storage_getitem.asp)
+- [MDN Web Docs: Storage.getItem()](https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem)
 - Trilogy Education Services, LLC for the example gif and sample code throughout the week 5 activities.
