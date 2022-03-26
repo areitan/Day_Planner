@@ -23,14 +23,21 @@ Day Planner
 
 ### index.html
 
-1. Originally, I added a table to the ```.htlm``` file for my timeblocks, but then decided to swith to ```<div>```s to create the time blocks
+1. Originally, I added a table to the ```.htlm``` file for my timeblocks, but then decided to swith to ```<div>```'s to create the time blocks.
 2. I added the provided css selectors to the ```.html``` file.
 3. I added id's to the butons and places where I wanted the user to be able to add text.
 4. Added id's to all the elements of the ```.html``` file that I wanted to interact with in the ```.js``` file.
 
 ### script.js
 
-1. I added a variable for the current date 
+1. I added a variable for the current date to display on the planner.
+2. I added a variable for the current hour converted to military time so I could use that in if statements to comtrol the colors in the ```.html``` file.
+3. I added if statements for each hour to control the color.
+
+
+### style.css
+1. I changed the css selector and added text color to the icon for the save button hover effect so that it would work the way it does in the example ```.gif```. 
+
 
 ## How To Contribute
 
