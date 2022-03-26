@@ -27,6 +27,7 @@ Day Planner
 2. I added the provided css selectors to the ```.html``` file.
 3. I added id's to the butons and places where I wanted the user to be able to add text.
 4. Added id's to all the elements of the ```.html``` file that I wanted to interact with in the ```.js``` file.
+5. I originally had all of the text boxes as input fields, but then I realized they should be ```<textarea>``` elements
 
 ### script.js
 
@@ -38,8 +39,9 @@ Day Planner
 
 
 ### style.css
-1. I changed the css selector and added text color to the icon for the save button hover effect so that it would work the way it does in the example ```.gif```. 
-2. I  also added variables for common colors and I changed the text color of the past, present, and future classes to black to match the example.
+1. I added in the css classes that were missing from the ```.html``` file.
+2. I changed the css selector and added text color to the icon for the save button hover effect so that it would work the way it does in the example ```.gif```. 
+3. I  also added variables for common colors and I changed the text color of the past, present, and future classes to black to match the example.
 
 
 ## How To Contribute
@@ -50,4 +52,5 @@ Suggestions are always welcome. I'm sure this is not the most elegant way to wri
 - [Stack Overflow: moment.js 24h format](https://stackoverflow.com/questions/12970284/moment-js-24h-format)
 - [Moment.js Documentation: Display](https://momentjs.com/docs/#/displaying/)
 - [Tutorial Republic: How to Get the Value in an Input Text Box using jQuery](https://www.tutorialrepublic.com/faq/how-to-get-the-value-in-an-input-text-box-using-jquery.php)
+- [W3 Schools: JavaScript HTML DOM EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 - Trilogy Education Services, LLC for the example gif and sample code throughout the week 5 activities.

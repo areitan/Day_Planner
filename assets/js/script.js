@@ -243,8 +243,9 @@ function storeItem5() {
 // Event listener for storing item 5
 btn5.addEventListener("click", storeItem5);
 
-    // function getItem9(){
-    //     var newTask9=localStorage.getItem("key9");
-    //     document.getElementById('task9').innerHTML = newTask9;
-    //     }
 
+function init(){
+    task9.append(task9value);
+}
+
+    
