@@ -162,22 +162,89 @@ var btn4 = document.getElementById("btn4");
 var btn5 = document.getElementById("btn5");
 
 
-var key9 = 9;
-var value9 = document.getElementById('#task9');
+// store Item 9
+function storeItem9() {
+    var task9value = document.getElementById('task9').value;
+    localStorage.setItem("key9", task9value);
+}
 
-function setTask9() {
-    // Set Item
-localStorage.setItem("key9", value9);
-// Retrieve Item
-document.getElementBykey("9").innerHTML = localStorage.getItem("input9");
-};
+// Event listener button 9 for storing item 9
+btn9.addEventListener("click", storeItem9);
 
-btn9.addEventListener("click", setTask9);
-btn10.addEventListener("click", setTask10);
-btn11.addEventListener("click", setTask11);
-btn12.addEventListener("click", setTask12);
-btn1.addEventListener("click", setTask1);
-btn2.addEventListener("click", setTask2);
-btn3.addEventListener("click", setTask3);
-btn4.addEventListener("click", setTask4);
-btn5.addEventListener("click", setTask5);
+// store Item 10
+function storeItem10() {
+    var task10value = document.getElementById('task10').value;
+    localStorage.setItem("key10", task10value);
+}
+
+// Event listener for storing item 10
+btn10.addEventListener("click", storeItem10);
+
+// store Item 11
+function storeItem11() {
+    var task11value = document.getElementById('task11').value;
+    localStorage.setItem("key11", task11value);
+}
+
+// Event listener for storing item 11
+btn11.addEventListener("click", storeItem11);
+
+// store Item 12
+function storeItem12() {
+    var task12value = document.getElementById('task12').value;
+    localStorage.setItem("key12", task12value);
+}
+
+// Event listener for storing item 12
+btn12.addEventListener("click", storeItem12);
+
+// store Item 1
+function storeItem1() {
+    var task1value = document.getElementById('task1').value;
+    localStorage.setItem("key1", task1value);
+}
+
+// Event listener for storing item 1
+btn1.addEventListener("click", storeItem1);
+
+//  store Item 2
+function storeItem2() {
+    var task2value = document.getElementById('task2').value;
+    localStorage.setItem("key2", task2value);
+}
+
+// Event listener for storing item 2
+btn2.addEventListener("click", storeItem2);
+
+//  store Item 3
+function storeItem3() {
+    var task3value = document.getElementById('task3').value;
+    localStorage.setItem("key3", task3value);
+}
+
+// Event listener for storing item 3
+btn3.addEventListener("click", storeItem3);
+
+//   store Item 4
+function storeItem4() {
+    var task4value = document.getElementById('task4').value;
+    localStorage.setItem("key4", task4value);
+}
+
+// Event listener for storing item 4
+btn4.addEventListener("click", storeItem4);
+
+//   store Item 5
+function storeItem5() {
+    var task5value = document.getElementById('task5').value;
+    localStorage.setItem("key5", task5value);
+}
+
+// Event listener for storing item 5
+btn5.addEventListener("click", storeItem5);
+
+    // function getItem9(){
+    //     var newTask9=localStorage.getItem("key9");
+    //     document.getElementById('task9').innerHTML = newTask9;
+    //     }
+

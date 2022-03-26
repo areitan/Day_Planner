@@ -33,6 +33,8 @@ Day Planner
 1. I added a variable for the current date to display on the planner.
 2. I added a variable for the current hour converted to military time so I could use that in if statements to comtrol the colors in the ```.html``` file.
 3. I added if statements for each hour to control the color.
+4. I added functions to save user input from the text inputs to local storage.
+5. I added event listeners to each time-block button to trigger saving the user input to local storage
 
 
 ### style.css
@@ -42,9 +44,10 @@ Day Planner
 
 ## How To Contribute
 
-
+Suggestions are always welcome. I'm sure this is not the most elegant way to write this code, and there could be improvement.
 
 ## Credits
 - [Stack Overflow: moment.js 24h format](https://stackoverflow.com/questions/12970284/moment-js-24h-format)
 - [Moment.js Documentation: Display](https://momentjs.com/docs/#/displaying/)
+- [Tutorial Republic: How to Get the Value in an Input Text Box using jQuery](https://www.tutorialrepublic.com/faq/how-to-get-the-value-in-an-input-text-box-using-jquery.php)
 - Trilogy Education Services, LLC for the example gif and sample code throughout the week 5 activities.
