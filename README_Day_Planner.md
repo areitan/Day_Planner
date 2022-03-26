@@ -37,6 +37,7 @@ Day Planner
 
 ### style.css
 1. I changed the css selector and added text color to the icon for the save button hover effect so that it would work the way it does in the example ```.gif```. 
+2. I  also added variables for common colors and I changed the text color of the past, present, and future classes to black to match the example.
 
 
 ## How To Contribute
@@ -44,5 +45,6 @@ Day Planner
 
 
 ## Credits
-- [W3 Schools: HTML ```<input>``` type Attribute](https://www.w3schools.com/tags/att_input_type.asp)
+- [Stack Overflow: moment.js 24h format](https://stackoverflow.com/questions/12970284/moment-js-24h-format)
+- [Moment.js Documentation: Display](https://momentjs.com/docs/#/displaying/)
 - Trilogy Education Services, LLC for the example gif and sample code throughout the week 5 activities.

@@ -151,3 +151,33 @@ if (currentHour == 17) {
     task5.addClass('present');
 }
 
+var btn9 = document.getElementById("btn9");
+var btn10 = document.getElementById("btn10");
+var btn11 = document.getElementById("btn11");
+var btn12 = document.getElementById("btn12");
+var btn1 = document.getElementById("btn1");
+var btn2 = document.getElementById("btn2");
+var btn3 = document.getElementById("btn3");
+var btn4 = document.getElementById("btn4");
+var btn5 = document.getElementById("btn5");
+
+
+var key9 = 9;
+var value9 = document.getElementById('#task9');
+
+function setTask9() {
+    // Set Item
+localStorage.setItem("key9", value9);
+// Retrieve Item
+document.getElementBykey("9").innerHTML = localStorage.getItem("input9");
+};
+
+btn9.addEventListener("click", setTask9);
+btn10.addEventListener("click", setTask10);
+btn11.addEventListener("click", setTask11);
+btn12.addEventListener("click", setTask12);
+btn1.addEventListener("click", setTask1);
+btn2.addEventListener("click", setTask2);
+btn3.addEventListener("click", setTask3);
+btn4.addEventListener("click", setTask4);
+btn5.addEventListener("click", setTask5);
