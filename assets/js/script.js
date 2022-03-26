@@ -1,6 +1,6 @@
 // Capture today's date
 var today = moment();
-$("#currentDay").text(today.format("dddd, MMM Do, YYYY"));
+$("#currentDay").text(today.format("dddd, MMM Do, YYYY h:mm A"));
 console.log(today)
 
 // Finds current hour

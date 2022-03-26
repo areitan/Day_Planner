@@ -31,8 +31,8 @@ Day Planner
 
 ### script.js
 
-1. I added a variable for the current date to display on the planner.
-2. I added a variable for the current hour converted to military time so I could use that in if statements to control the time-block colors in the ```.html``` file.
+1. I added a variable for the current date to display on the planner and formatted it with ```moment.js```.
+2. I added a variable for the current hour converted to military time with ```moment.js``` so I could use that in if statements to control the time-block colors in the ```.html``` file.
 3. I added if statements for each hour to control the color.
 4. I added functions to save user input from the text inputs to local storage.
 5. I added event listeners to each time-block button to trigger saving the user input to local storage.
@@ -40,9 +40,9 @@ Day Planner
 
 
 ### style.css
-1. I added in the css classes that were missing from the ```.html``` file.
+1. I added in the css classes that were provided in the ```style.css``` file, but were missing from the ```.html``` file.
 2. I changed the css selector and added text color to the icon for the save button hover effect so that it would work the way it does in the example ```.gif```. 
-3. I  also added variables for common colors and I changed the text color of the past, present, and future classes to black to match the example.
+3. I also added variables for common colors and I changed the text color of the past, present, and future classes to black to match the example.
 
 
 ## How To Contribute
