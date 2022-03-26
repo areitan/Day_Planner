@@ -7,7 +7,7 @@
 Given a ```.gif``` file of a day planner and a beginning HTML and CSS file, the goal is to create a day planner that resembles the one in the ```.gif``` file. It should have the current day displayed at the top of the calendar with timeblocks for standard business hours. The timeblocks should be color-coded to represent past, present, and future. A user should be able to enter events into the timeblocks and save to local storage so they are still there after page refresh. 
 
 - [Git Hub Repository](https://github.com/areitan/Day_Planner)
-- [Day Planner Deployed Application](https://areitan.github.io/Code_Quiz/)
+- [Day Planner Deployed Application](https://areitan.github.io/Day_Planner/)
 
 Example Day Planner
 
@@ -32,7 +32,7 @@ Day Planner
 ### script.js
 
 1. I added a variable for the current date to display on the planner.
-2. I added a variable for the current hour converted to military time so I could use that in if statements to comtrol the colors in the ```.html``` file.
+2. I added a variable for the current hour converted to military time so I could use that in if statements to control the time-block colors in the ```.html``` file.
 3. I added if statements for each hour to control the color.
 4. I added functions to save user input from the text inputs to local storage.
 5. I added event listeners to each time-block button to trigger saving the user input to local storage.
