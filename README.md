@@ -52,7 +52,7 @@ Suggestions are always welcome. I'm sure this is not the most elegant way to wri
 
 ## License
 
-Copyright (c) <2022> <copyright April Reitan>
+Copyright (c) ```<2022> <copyright April Reitan>```
 
 MIT License:
 Permission is hereby granted, free of charge, to any person obtaining a copy
